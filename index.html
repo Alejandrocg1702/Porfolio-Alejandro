@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alejandro Cantero | Data Analyst</title>
+  <meta name="description" content="Portfolio profesional de Alejandro Cantero — Data Analyst Junior (SQL, Python, Power BI)." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">AC</a>
+
+    <nav class="nav">
+      <a href="#about" data-i18n="nav_about">Sobre mí</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <a href="#projects" data-i18n="nav_projects">Proyectos</a>
+      <a href="#cv" data-i18n="nav_cv">CV</a>
+      <a href="#certs" data-i18n="nav_certs">Certificaciones</a>
+      <a href="#contact" data-i18n="nav_contact">Contacto</a>
+    </nav>
+
+    <div class="actions">
+      <button class="chip" id="langToggle" aria-label="Toggle language">ES/EN</button>
+      <a class="chip outline" href="#contact" data-i18n="cta_contact">Contactar</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="hero-left">
+          <div class="avatar-wrap">
+            <img class="avatar" src="assets/avatar.jpg" alt="Foto de Alejandro Cantero" onerror="this.style.display='none'; this.parentElement.classList.add('no-img');" />
+            <div class="avatar-fallback" aria-hidden="true">AC</div>
+          </div>
+
+          <div class="hero-title">
+            <h1>Alejandro Cantero</h1>
+            <p class="subtitle" data-i18n="hero_subtitle">
+              Data Analyst | SQL | Power BI · Analista de Datos Junior | Python | Visualización
+            </p>
+
+            <div class="badges">
+              <span class="badge" data-i18n="badge_remote">Remoto preferente</span>
+              <span class="badge" data-i18n="badge_disability">Certificado de discapacidad (37%). Busco entorno remoto/híbrido.</span>
+            </div>
+
+            <p class="summary" data-i18n="hero_summary">
+              Analista de datos junior orientado a convertir datos en decisiones: reporting, ETL, análisis y dashboards. Trabajo con SQL, Python y Power BI, cuidando claridad, negocio y reproducibilidad.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects" data-i18n="cta_projects">Ver proyectos</a>
+              <a class="btn" href="assets/cv.pdf" target="_blank" rel="noopener" data-i18n="cta_cv">Descargar CV</a>
+              <a class="btn ghost" href="https://github.com/alejandrocg1702" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn ghost" href="TU_LINKEDIN_AQUI" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="panel">
+            <h3 data-i18n="panel_title">Lo que aporto</h3>
+            <ul>
+              <li data-i18n="panel_b1">Dashboards en Power BI orientados a KPIs y decisiones</li>
+              <li data-i18n="panel_b2">ETL y limpieza de datos con Python/Jupyter</li>
+              <li data-i18n="panel_b3">Consultas SQL para insights, calidad y reporting</li>
+              <li data-i18n="panel_b4">Documentación clara: README, pasos reproducibles y conclusiones</li>
+            </ul>
+
+            <div class="panel-footer">
+              <span class="muted" data-i18n="panel_footer">Sectores objetivo: Retail/E-commerce · Finanzas · Logística</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2 data-i18n="about_title">Sobre mí</h2>
+        <p class="section-sub" data-i18n="about_sub">Perfil claro, orientado a negocio y a resultados.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 data-i18n="about_h">Resumen</h3>
+          <p data-i18n="about_p">
+            Soy Alejandro Cantero, Data Analyst Junior con foco en transformar datos en información accionable. Me gusta construir pipelines sencillos (ETL), analizar con SQL/Python y comunicar insights con dashboards en Power BI. Busco un entorno remoto o híbrido donde aportar rigor, claridad y mejora continua.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="edu_h">Formación</h3>
+          <ul class="clean">
+            <li><strong data-i18n="edu_1t">Graduado en ESO</strong></li>
+            <li><strong data-i18n="edu_2t">CFGM Auxiliar Administrativo</strong></li>
+            <li><strong data-i18n="edu_3t">CFGM Técnico en Comercio</strong></li>
+            <li><strong data-i18n="edu_4t">En progreso:</strong> <span data-i18n="edu_4d">DAM y Analista de Datos</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2 data-i18n="skills_title">Skills</h2>
+        <p class="section-sub" data-i18n="skills_sub">Stack principal (nivel intermedio, en crecimiento).</p>
+      </div>
+
+      <div class="skills">
+        <div class="skill card"><div class="skill-top"><span class="skill-name">SQL</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="sql_desc">Consultas, joins, agregaciones, reporting.</p></div>
+        <div class="skill card"><div class="skill-top"><span class="skill-name">Python</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="py_desc">Limpieza, EDA y automatización ligera.</p></div>
+        <div class="skill card"><div class="skill-top"><span class="skill-name">Power BI</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="pbi_desc">Modelado, medidas básicas y dashboards.</p></div>
+        <div class="skill card"><div class="skill-top"><span class="skill-name">Excel</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="xl_desc">Tablas, limpieza, análisis y reporting.</p></div>
+        <div class="skill card"><div class="skill-top"><span class="skill-name">Jupyter</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="jup_desc">Notebooks reproducibles y storytelling.</p></div>
+        <div class="skill card"><div class="skill-top"><span class="skill-name">ETL</span><span class="pill" data-i18n="level_5">Nivel 5/10</span></div><p class="muted" data-i18n="etl_desc">Extracción, transformación, carga y control de calidad.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Proyectos</h2>
+        <p class="section-sub">Pon aquí tus 3 proyectos y sus enlaces.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project card">
+          <div class="project-body">
+            <h3>Análisis exploratorio de datos</h3>
+            <div class="project-links">
+              <a class="link" href="REPO_EDA" target="_blank" rel="noopener">Ver repo</a>
+              <a class="link" href="DEMO_EDA" target="_blank" rel="noopener">Ver demo</a>
+              <a class="link" href="INFORME_EDA" target="_blank" rel="noopener">Ver informe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project-body">
+            <h3>Análisis con Power BI</h3>
+            <div class="project-links">
+              <a class="link" href="REPO_PBI" target="_blank" rel="noopener">Ver repo</a>
+              <a class="link" href="DEMO_PBI" target="_blank" rel="noopener">Ver demo</a>
+              <a class="link" href="INFORME_PBI" target="_blank" rel="noopener">Ver informe</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project-body">
+            <h3>Aprendizaje no supervisado</h3>
+            <div class="project-links">
+              <a class="link" href="REPO_UNSUP" target="_blank" rel="noopener">Ver repo</a>
+              <a class="link" href="DEMO_UNSUP" target="_blank" rel="noopener">Ver demo</a>
+              <a class="link" href="INFORME_UNSUP" target="_blank" rel="noopener">Ver informe</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="section-head"><h2>CV</h2><p class="section-sub">Descarga tu CV en PDF.</p></div>
+      <div class="card cv">
+        <div><h3>Alejandro Cantero</h3><p class="muted">Sube tu CV a <code>assets/cv.pdf</code></p></div>
+        <a class="btn primary" href="assets/cv.pdf" target="_blank" rel="noopener">Descargar CV</a>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <div class="section-head"><h2>Certificaciones</h2><p class="section-sub">En progreso</p></div>
+      <div class="card">
+        <ul class="clean">
+          <li>Analista de Datos — en progreso</li>
+          <li>DAM — en progreso</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head"><h2>Contacto</h2><p class="section-sub">Escríbeme por email.</p></div>
+      <div class="card contact">
+        <div>
+          <h3>Hablemos</h3>
+          <p class="muted">Remoto/híbrido. Retail · Finanzas · Logística.</p>
+          <div class="contact-links">
+            <a class="btn primary" href="mailto:alejandrocg1702@gmail.com">alejandrocg1702@gmail.com</a>
+            <a class="btn" href="TU_LINKEDIN_AQUI" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="https://github.com/alejandrocg1702" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Alejandro Cantero</span>
+      <span class="muted">GitHub Pages</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
