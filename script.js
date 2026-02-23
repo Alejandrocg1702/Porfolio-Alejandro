@@ -40,8 +40,10 @@ const I18N = {
 
     cv_title: "CV",
     cv_sub: "Descarga tu CV en PDF.",
+
     certs_title: "Certificaciones",
     certs_sub: "En progreso",
+
     contact_title: "Contacto",
     contact_sub: "Escríbeme por email.",
     talk: "Hablemos",
@@ -88,8 +90,10 @@ const I18N = {
 
     cv_title: "Resume",
     cv_sub: "Download my resume as PDF.",
+
     certs_title: "Certifications",
     certs_sub: "In progress",
+
     contact_title: "Contact",
     contact_sub: "Email me.",
     talk: "Let’s talk",
@@ -110,15 +114,12 @@ function setLang(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Año
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 
-  // Idioma guardado
   const saved = localStorage.getItem("lang") || "es";
   setLang(saved);
 
-  // Botón
   const btn = document.getElementById("langToggle");
   if (btn) {
     btn.addEventListener("click", () => {
